@@ -1,4 +1,4 @@
-# Website Down Notifier on Slack
+# Website Down best Notifier on Slack
 
 
 <img src="https://raw.githubusercontent.com/AndreiD/SlackUptimeMonitor/master/slackmonitor.JPG" alt="slack website up down notifier uptime ping"/>
@@ -35,7 +35,8 @@ You need then to export it as an environmental variable or hardcoded
 ~~~~
 export SLACK_TOKEN = 'your_token_here'
 ~~~~
-
+export SLACK_TOKEN = 'your_token_here'
+~~~~
 SLACK_TOKEN = os.environ.get('SLACK_TOKEN')
 
 #### Where you want to receive your notifications ?
